@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub | CSS Grid</title>
+  <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="brand" href="grid.html">StudentHub</a>
+    <div class="nav-links">
+      <a class="selected" href="grid.html">Grid Dashboard</a>
+      <a href="flexbox.html">Flexbox Profile</a>
+      <a href="bootstrap.html">Bootstrap</a>
+    </div>
+  </nav>
+  <div class="layout">
+    <header class="page-header">
+      <p class="eyebrow">STUDENT WORKSPACE</p>
+      <h1>Good morning, Smit!</h1>
+      <p>Your academic progress at a glance · Semester 3</p>
+    </header>
+    <aside class="sidebar">
+      <h2>Quick Menu</h2>
+      <a class="active" href="grid.html">Overview</a>
+      <a href="flexbox.html">My Profile</a>
+      <a href="bootstrap.html">Exam Planner</a>
+      <div class="side-note"><strong>Keep going!</strong><p>Small steps every day lead to big results.</p></div>
+    </aside>
+    <main class="content">
+      <section class="welcome"><div><h2>Academic Overview</h2><p>Here is a snapshot of your semester.</p></div><span class="term">2026–27</span></section>
+      <section class="stats-grid">
+        <article class="stat-card violet"><span class="stat-icon">A</span><p>Attendance</p><strong>91%</strong><small>Above target</small></article>
+        <article class="stat-card blue"><span class="stat-icon">G</span><p>Current CGPA</p><strong>8.6</strong><small>Good progress</small></article>
+        <article class="stat-card orange"><span class="stat-icon">C</span><p>Active Courses</p><strong>6</strong><small>This semester</small></article>
+        <article class="stat-card green"><span class="stat-icon">✓</span><p>Assignments</p><strong>12/15</strong><small>3 remaining</small></article>
+      </section>
+      <section class="lower-grid">
+        <article class="panel"><div class="panel-heading"><h2>Upcoming Tasks</h2><span>October</span></div><ul class="task-list"><li><span class="dot purple"></span><div><strong>Web Development Practical</strong><p>Complete responsive UI pages</p></div><time>14 Oct</time></li><li><span class="dot blue-dot"></span><div><strong>Computer Networks</strong><p>Revise routing concepts</p></div><time>17 Oct</time></li><li><span class="dot orange-dot"></span><div><strong>Data Structures</strong><p>Practice stack and queue problems</p></div><time>21 Oct</time></li></ul></article>
+        <article class="panel progress-panel"><h2>Weekly Focus</h2><p>Learning goal completion</p><div class="progress-track"><span></span></div><div class="progress-label"><strong>72%</strong><small>4 of 6 goals completed</small></div><a class="text-link" href="flexbox.html">View student profile →</a></article>
+      </section>
+    </main>
+    <footer class="footer">StudentHub · CSS Grid Practical <span>Created by Smit Prajapati · 25CS085</span></footer>
+  </div>
+</body>
+</html>

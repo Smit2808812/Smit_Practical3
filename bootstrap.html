@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub | Bootstrap Planner</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap-custom.css" />
+  </head>
+  <body class="bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark hub-nav">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="grid.html">StudentHub</a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#hubMenu"
+          aria-controls="hubMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="hubMenu">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="grid.html">Grid Dashboard</a
+            ><a class="nav-link" href="flexbox.html">Flexbox Profile</a
+            ><a class="nav-link active" href="bootstrap.html"
+              >Bootstrap Planner</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="hub-hero py-5">
+      <div class="container py-3">
+        <span class="badge rounded-pill text-bg-light mb-3"
+          >SEMESTER 3 · 2026–27</span
+        >
+        <h1 class="display-5 fw-bold">Plan smarter. Learn better.</h1>
+        <p class="lead mb-0">
+          A responsive academic planner built with Bootstrap components and grid
+          utilities.
+        </p>
+      </div>
+    </header>
+    <main class="container py-4">
+      <div class="row g-3 mb-4">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card metric-card h-100">
+            <div class="card-body">
+              <p class="text-secondary mb-2">Attendance</p>
+              <h2 class="fw-bold">91%</h2>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Attendance progress"
+                aria-valuenow="91"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-success" style="width: 91%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card metric-card h-100">
+            <div class="card-body">
+              <p class="text-secondary mb-2">Current CGPA</p>
+              <h2 class="fw-bold">8.6</h2>
+              <span class="badge text-bg-primary-subtle text-primary-emphasis"
+                >On track</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card metric-card h-100">
+            <div class="card-body">
+              <p class="text-secondary mb-2">Courses</p>
+              <h2 class="fw-bold">06</h2>
+              <small class="text-secondary">Registered this term</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="card metric-card h-100">
+            <div class="card-body">
+              <p class="text-secondary mb-2">Tasks left</p>
+              <h2 class="fw-bold">03</h2>
+              <small class="text-secondary">Keep your momentum</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-lg-7">
+          <section class="card h-100">
+            <div class="card-body p-4">
+              <div
+                class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3"
+              >
+                <div>
+                  <p class="section-label mb-1">YOUR SCHEDULE</p>
+                  <h2 class="h4 fw-bold mb-0">Upcoming Examinations</h2>
+                </div>
+                <span class="badge rounded-pill text-bg-light"
+                  >October 2026</span
+                >
+              </div>
+              <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                  <thead class="table-light">
+                    <tr>
+                      <th>Date</th>
+                      <th>Subject</th>
+                      <th>Time</th>
+                      <th>Room</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>20 Oct</td>
+                      <td>Web Development</td>
+                      <td>10:00 AM</td>
+                      <td>204</td>
+                    </tr>
+                    <tr>
+                      <td>24 Oct</td>
+                      <td>Computer Networks</td>
+                      <td>10:00 AM</td>
+                      <td>205</td>
+                    </tr>
+                    <tr>
+                      <td>28 Oct</td>
+                      <td>Data Structures</td>
+                      <td>02:00 PM</td>
+                      <td>206</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-lg-5">
+          <section class="card h-100">
+            <div class="card-body p-4">
+              <p class="section-label mb-1">QUICK ACCESS</p>
+              <h2 class="h4 fw-bold mb-3">Responsive UI Practicals</h2>
+              <p class="text-secondary">
+                Open each example to explore the layout technique.
+              </p>
+              <div class="d-grid gap-2">
+                <a href="grid.html" class="btn btn-outline-primary"
+                  >Explore CSS Grid</a
+                ><a href="flexbox.html" class="btn btn-outline-success"
+                  >Explore Flexbox</a
+                ><a href="bootstrap.html" class="btn btn-dark"
+                  >Bootstrap Planner</a
+                >
+              </div>
+              <hr />
+              <div class="d-flex align-items-center gap-3">
+                <div class="student-mark">SP</div>
+                <div>
+                  <strong>Smit Prajapati</strong>
+                  <div class="small text-secondary">Enrollment: 25CS085</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="card mt-4">
+        <div class="card-body p-4">
+          <p class="section-label mb-1">REMINDERS</p>
+          <h2 class="h5 fw-bold">Latest Notifications</h2>
+          <div class="alert alert-primary mt-3 mb-2" role="alert">
+            Check your practical submission deadlines and keep your project
+            files organized.
+          </div>
+          <div class="alert alert-success mb-0" role="alert">
+            Tip: Review your timetable before planning your weekly study goals.
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="hub-footer text-center py-3 mt-4">
+      <p class="mb-0">
+        StudentHub · Bootstrap Practical · Smit Prajapati · 25CS085
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

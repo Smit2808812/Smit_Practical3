@@ -1,0 +1,74 @@
+:root {
+  --hub: #242044;
+  --hub-accent: #6558c8;
+}
+.hub-nav {
+  background: var(--hub);
+}
+.hub-hero {
+  background: linear-gradient(115deg, #e8e6ff, #f4f8ff);
+  color: #252443;
+  border-bottom: 1px solid #dedcf4;
+}
+.hub-hero .lead {
+  color: #686984;
+  max-width: 660px;
+}
+.metric-card {
+  border: 1px solid #e5e6f0;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px #24204408;
+}
+.metric-card h2 {
+  font-size: 30px;
+  color: #29264e;
+}
+.progress {
+  height: 7px;
+}
+.card {
+  border-color: #e5e6f0;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px #24204408;
+}
+.section-label {
+  font-size: 10px;
+  letter-spacing: 1.6px;
+  font-weight: 800;
+  color: var(--hub-accent);
+}
+.table th {
+  font-size: 12px;
+  color: #626a80;
+  white-space: nowrap;
+}
+.table td {
+  font-size: 13px;
+}
+.student-mark {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e8e6ff;
+  color: #5144a2;
+  font-weight: 800;
+}
+.hub-footer {
+  background: var(--hub);
+  color: #e5e3f4;
+  font-size: 12px;
+}
+@media (max-width: 575px) {
+  .hub-hero {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .hub-hero h1 {
+    font-size: 2rem;
+  }
+  .card-body {
+    padding: 1.2rem !important;
+  }
+}
